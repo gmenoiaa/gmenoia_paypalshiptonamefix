@@ -13,8 +13,6 @@ class Gmenoia_Paypalshiptonamefix_Model_Paypal_Api_Nvp extends Mage_Paypal_Model
 	 * @param array $data        	
 	 */
 	protected function _exportAddressses($data) {
-		Mage::log ( 'here' );
-		
 		$address = new Varien_Object ();
 		Varien_Object_Mapper::accumulateByMap ( $data, $address, $this->_billingAddressMap );
 		$address->setExportedKeys ( array_values ( $this->_billingAddressMap ) );

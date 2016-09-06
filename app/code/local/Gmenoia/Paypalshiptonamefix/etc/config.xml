@@ -18,6 +18,7 @@
 			<paypal>
 				<rewrite>
 					<api_nvp>Gmenoia_Paypalshiptonamefix_Model_Paypal_Api_Nvp</api_nvp>
+					<express_checkout>Gmenoia_Paypalshiptonamefix_Model_Paypal_Express_Checkout</express_checkout>
 				</rewrite>
 			</paypal>
 		</models>
