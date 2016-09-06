@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Gmenoia_Paypalshiptonamefix>
+			<version>0.1.0</version>
+		</Gmenoia_Paypalshiptonamefix>
+	</modules>
+	<global>
+		<helpers>
+			<paypalshiptonamefix>
+				<class>Gmenoia_Paypalshiptonamefix_Helper</class>
+			</paypalshiptonamefix>
+		</helpers>
+		<models>
+			<paypalshiptonamefix>
+				<class>Gmenoia_Paypalshiptonamefix_Model</class>
+			</paypalshiptonamefix>
+			<paypal>
+				<rewrite>
+					<api_nvp>Gmenoia_Paypalshiptonamefix_Model_Paypal_Api_Nvp</api_nvp>
+				</rewrite>
+			</paypal>
+		</models>
+	</global>
+</config>
